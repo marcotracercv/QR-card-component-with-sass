@@ -1,0 +1,10 @@
+@use 'base/colors' as color;
+
+body{
+    background-color: color.$lightGray;
+    padding:0 2em;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
